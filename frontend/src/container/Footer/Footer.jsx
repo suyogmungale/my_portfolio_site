@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai'
 
 import { images } from '../../constant';
 import {AppWrap} from '../../wrapper'
@@ -11,6 +12,15 @@ const Footer = () => {
   const [loading, setLoading] = useState(false);
 
   const { username, email, message } = formData;
+
+
+  const Linkedin = () => {
+    window.open('https://www.linkedin.com/in/suyog-mungale-473193212/');
+  };
+
+  const GitHub = () => {
+    window.open('https://github.com/suyogmungale');
+  };
 
   const handleChangeInput = (e) => {
     const { name, value } = e.target;
@@ -48,7 +58,13 @@ const Footer = () => {
           <img src={images.mobile} alt="phone" />
           <a href="tel: 7066709677 ">+91 70667 09677</a>
         </div>
+        
       </div>
+      <div className='app__footer-social'>
+        <AiFillGithub className='social' onClick={GitHub}/>
+        <AiFillLinkedin className='social1' onClick={Linkedin}/>
+      </div> 
+
       {!isFormSubmitted ? (
         <div className="app__footer-form app__flex">
           <div className="app__flex">
