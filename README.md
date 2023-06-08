@@ -1,4 +1,3 @@
 it's my portfolio website 
-<a herf='https://suyogmungale.netlify.app/'>click here</a>
-
-<img src='Portfolio website\frontend\src\assets\Screenshot (45).png'>
+ <a href="https://www.example.com">
+<img src="frontend\src\assets\Screenshot1.png" alt="Example Image">
