@@ -2,7 +2,9 @@ it's my portfolio website
 [Visit my website](https://suyogmungale.netlify.app/)
 
 i build this site using reactjs
+
 for styling and design i used scss
+
 for backend i use sanity.io
 
 <img src="src\assets\Screenshot1.png" alt="Example Image">
